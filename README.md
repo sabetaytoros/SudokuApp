@@ -3,7 +3,8 @@
 I am searching for a C++ programing job in Israel.
 I am engineer and C++ programmer.  Although I sent my CV to several companies in Israel, no one dares to hire me.  
 In engineering a sketch is worth of thousand lines of explanation.   
-In order to facilitate the human resources job, I decide to write an application program using C++ to show my skills on this language. 
+In order to facilitate the human resources's job, I decide to write an application software using C++ to show my skills
+what am I capable to do, how to solve design and organize a problem.
 The following Application is written with Modern C++, using MinGW compiler and Netbeans IDE.  
 
 
@@ -11,7 +12,7 @@ Sudoku Solver.
 
 The solution for Sudoku Solving is Backtrace algorithm. 
 Backtrace algorithm uses brut force. 
-In order to enhance the performance of Sudoku solver Application before starting to use  backtrace algorithm,
+In order to enhance the performance of Sudoku solver Application before starting to use  backtrace anize,
 the program tries to  fill  the obvious known digits. The program is organized as Digits, Cells, Boxes, Lines, Ribbons
 and finally Posibility structures. Sudoku solver opens the Sudoku.txt file reads the input 9 sudoku lines that contains
 9 digits. If you want to try sudoku solver you have the add another puzzle to Sudoku.txt file. 
