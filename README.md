@@ -8,7 +8,7 @@ what am I capable to do, how to solve design and organize a problem.
 The following Application is written with Modern C++, using MinGW compiler and Netbeans IDE.  
 
 
-Sudoku Solver.
+Sudoku Solver
 
 The solution for Sudoku Solving is Backtrace algorithm. 
 Backtrace algorithm uses brut force. 
