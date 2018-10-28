@@ -1,7 +1,8 @@
 # SudokuApp
 
 I am searching for a C++ programing job in Israel.
-I am engineer and C++ programmer.  Although I sent my CV to several companies in Israel, no one dares to hire me.  
+I am engineer and C++ programmer.  
+Although I sent my CV to several companies in Israel, no one dares to hire me.  
 In engineering a sketch is worth to thousand lines of explanation.   
 Rather  telling what did I do in the past, I prefer to show you what can I do now.
 In order to facilitate the human resources's job, I decide to write an application software using C++ to show my skills
