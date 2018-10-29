@@ -24,6 +24,7 @@ and finally Posibility structures. Sudoku solver opens the Sudoku.txt file reads
 
 If the puzzle has more than 27 clues it does not need to backtree algorithm it solves directly the puzzle.
 
-My future chalange is to write the BackTrace Algorithm as a Generic Program to be used other than Sudoku games.
-
+Now the challenge is to write the BackTrace Algorithm as a Generic Program to be used other than Sudoku games.
+This will show my skills on Generic Programing.
 	
+
