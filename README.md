@@ -9,10 +9,9 @@ either I"m old or my background education is not Computer Science,
 no one company dares to hire me.  I know something that in engineering a sketch is worth to thousand lines of explanation.   
 Rather  telling what did I do in the past, I prefer to show you what can I do now.
 In order to facilitate the human resources's job,
-I decide to write an application software in toy project 1000 lines, using C++ to show my skills
+I decide to write an application software in a toy project 1000 lines, using C++ to show not all my skills
 what am I capable to do, how do I solve, design and organize a problem.
 The following Application is written with Modern C++, using MinGW compiler and Netbeans IDE.  
-
 
 Sudoku Solver
 
@@ -25,6 +24,6 @@ and finally Posibility structures. Sudoku solver opens the Sudoku.txt file reads
 
 If the puzzle has more than 27 clues it does not need to backtree algorithm it solves directly the puzzle.
 
-
+My future chalange is to write the BackTrace Algorithm as a Generic Program to be used other than Sudoku games.
 
 	
