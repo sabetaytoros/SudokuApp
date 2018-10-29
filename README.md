@@ -5,11 +5,11 @@ Since than I am not working.
 I am searching for a C++ programing job in Israel.
 I am engineer and C++ programmer.  
 Although I sent my CV to several companies in Israel, 
-either I"m old or my background education is not Computer Science, 
+either I´m old or my background education is not Computer Science, 
 no one company dares to hire me.  I know something that in engineering a sketch is worth to thousand lines of explanation.   
 Rather  telling what did I do in the past, I prefer to show you what can I do now.
 In order to facilitate the human resources's job,
-I decide to write an application software in a toy project 1000 lines, using C++ to show not all my skills
+I decide to write an application software in a toy project 1000 lines, using C++ to show a few of my skills
 what am I capable to do, how do I solve, design and organize a problem.
 The following Application is written with Modern C++, using MinGW compiler and Netbeans IDE.  
 
