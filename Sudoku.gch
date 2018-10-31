@@ -1,0 +1,31 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/* 
+ * File:   Sudoku.gch
+ * Author: Sabetay
+ *
+ * Created on 31 October 2018, 11:56
+ */
+
+#ifndef SUDOKU_GCH
+#define SUDOKU_GCH
+
+#include <iostream>
+using namespace std;
+#include <string>
+#include <fstream>
+#include <iterator>
+#include <vector>
+#include <array>
+#include <iterator>
+#include <algorithm>
+#include <memory>
+#include <experimental/optional>
+#include <tuple>  
+
+#endif /* SUDOKU_GCH */
+

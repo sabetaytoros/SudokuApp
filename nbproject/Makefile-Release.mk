@@ -35,6 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
+	${OBJECTDIR}/Box.o \
+	${OBJECTDIR}/Digit.o \
+	${OBJECTDIR}/Line.o \
+	${OBJECTDIR}/Posibility.o \
+	${OBJECTDIR}/Ribbon.o \
 	${OBJECTDIR}/Sudoku.o
 
 
@@ -61,6 +66,31 @@ LDLIBSOPTIONS=
 ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sudokuapp.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/sudokuapp ${OBJECTFILES} ${LDLIBSOPTIONS}
+
+${OBJECTDIR}/Box.o: Box.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Box.o Box.cpp
+
+${OBJECTDIR}/Digit.o: Digit.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Digit.o Digit.cpp
+
+${OBJECTDIR}/Line.o: Line.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Line.o Line.cpp
+
+${OBJECTDIR}/Posibility.o: Posibility.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Posibility.o Posibility.cpp
+
+${OBJECTDIR}/Ribbon.o: Ribbon.cpp
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} "$@.d"
+	$(COMPILE.cc) -O2 -MMD -MP -MF "$@.d" -o ${OBJECTDIR}/Ribbon.o Ribbon.cpp
 
 ${OBJECTDIR}/Sudoku.o: Sudoku.cpp
 	${MKDIR} -p ${OBJECTDIR}

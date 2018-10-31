@@ -4,6 +4,12 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Box.h</itemPath>
+      <itemPath>Digit.h</itemPath>
+      <itemPath>Line.h</itemPath>
+      <itemPath>Posibility.h</itemPath>
+      <itemPath>Ribbon.h</itemPath>
+      <itemPath>Sudoku.gch</itemPath>
       <itemPath>Sudoku.h</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
@@ -13,7 +19,23 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>Box.cpp</itemPath>
+      <itemPath>Digit.cpp</itemPath>
+      <itemPath>Line.cpp</itemPath>
+      <itemPath>Posibility.cpp</itemPath>
+      <itemPath>Ribbon.cpp</itemPath>
       <itemPath>Sudoku.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
                    displayName="Test Files"
@@ -43,7 +65,29 @@
           </incDir>
         </ccTool>
       </compileType>
+      <item path="Box.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Box.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Digit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Digit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Line.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Line.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Posibility.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Posibility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ribbon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ribbon.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Sudoku.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sudoku.gch" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Sudoku.h" ex="false" tool="3" flavor2="0">
       </item>
@@ -70,7 +114,29 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Box.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Box.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Digit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Digit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Line.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Line.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Posibility.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Posibility.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Ribbon.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Ribbon.h" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Sudoku.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sudoku.gch" ex="false" tool="3" flavor2="0">
       </item>
       <item path="Sudoku.h" ex="false" tool="3" flavor2="0">
       </item>
