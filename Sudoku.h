@@ -70,7 +70,7 @@ using TCounts = array<TCount, four>;
 enum mdTrace { mdInsert, mdDelete, mdTerminate };
 using TvsRbn = vector<shared_ptr<TRibbon> >;
 using TvsRibbon = vector< TvsRbn >; 
-
+/******************************************************************************/
 namespace SudokuApp {
     void PrintCounts(const TCounts& Counts);
     void PrintLine(const TRw& e);
