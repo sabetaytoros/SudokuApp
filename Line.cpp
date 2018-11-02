@@ -150,17 +150,12 @@ PNewItem TLine::FillTstVectorLineTripleshasMissingCell(TRw& tstV, TDigit& MisCel
                         *it = &MisCell.No;
         }
     }
-    vector<Uint> vc;
-    auto it = tstV.begin();
-    find_if(tstV.begin(), tstV.end(), [&](auto& et) { 
-        if (et == nullptr) { 
-            vc.emplace_back( static_cast<Uint> (distance(tstV.begin(), it)));
-            if (vc.size() > 1) return true;
-        }
-        ++it;
-        return false;
-    });
-    return make_pair( vc.size() == 1,   vc.size() == 1 ? vc.front(): 0);
+    int c { count_if(tstV.begin(), tstV.end(), [&](auto& et) { return et == nullptr; }  ) };
+    if ( c == 1) {
+        auto it = find_if(tstV.begin(), tstV.end(), [&](auto& et) {return et == nullptr; });
+        return make_pair(true, static_cast<Uint> (distance(tstV.begin(), it)));           
+    }
+    return make_pair(false, zero);
 }
 
 /*******************************************************************************/
